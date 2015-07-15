@@ -4,7 +4,7 @@ from django.template import TemplateDoesNotExist
 
 from elasticsearch import TransportError
 
-from sheerlike.query import get_document 
+from sheerlike.query import get_document
 
 class SheerTemplateView(TemplateView):
     doc_type = None
